@@ -1,5 +1,5 @@
 # Library Observer
-A C++ program to implement simmplified version of Observer design pattern that observe changes in library (checking books in/out)
+A C++ program to implement simplified version of Observer design pattern that observe changes in library (checking books in/out)
 
 ## Getting Started
 
