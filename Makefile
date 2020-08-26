@@ -1,5 +1,5 @@
-a3:	main.o Book.o Control.o Library.o List.o Logger.o View.o
-	g++ -o a3 main.o Book.o Control.o Library.o List.o Logger.o View.o
+lib-ob:	main.o Book.o Control.o Library.o List.o Logger.o View.o
+	g++ -o lib-ob main.o Book.o Control.o Library.o List.o Logger.o View.o
 
 main.o:	main.cc Book.h
 	g++ -c main.cc
@@ -23,4 +23,4 @@ View.o:	View.cc View.h
 	g++ -c View.cc
 
 clean:
-	rm -f *.o a3
+	rm -f *.o lib-ob
